@@ -1,0 +1,99 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.header-section{
+    width:100%;
+}
+.container{
+    width: 1340px;
+}
+.container nav{
+    background: #5cbaffb8;
+}
+.container nav ul{
+    margin: 0px;
+    padding: 30px;
+    text-align: center;
+}
+.container nav ul li{
+    display: inline-block;
+    list-style: none;
+    font-size: 13px;
+}
+.container nav ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #ffffff;
+    padding: 5px;
+}
+.container nav ul li a img{
+   width: 81%;
+   margin-bottom: -3px;
+}
+
+.content-section{}
+
+.content-left{
+    width: 40%;
+}
+.content-left img{
+    width:100%;
+    float: left;
+    height: 100vh;
+}
+.content-right{
+    width: 60%;
+    height: 100vh;
+    background: rgb(0,183,234); 
+    background: -webkit-linear-gradient(bottom left, rgba(0,183,234,1) 0%, rgba(0,183,234,1) 28%, rgba(0,183,234,1) 51%, rgba(0,183,234,1) 68%, rgba(0,158,195,1) 100%);
+    background: -o-linear-gradient(bottom left, rgba(0,183,234,1) 0%, rgba(0,183,234,1) 28%, rgba(0,183,234,1) 51%, rgba(0,183,234,1) 68%, rgba(0,158,195,1) 100%);
+    background: linear-gradient(to top right, rgba(0,183,234,1) 0%, rgba(0,183,234,1) 28%, rgba(0,183,234,1) 51%, rgba(0,183,234,1) 68%, rgba(0,158,195,1) 100%);  
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00b7ea', endColorstr='#009ec3',GradientType=1 ); 
+
+    align-items: center;
+    display: flex;
+}
+.signup-box{
+  width: 38%;
+    margin: 0 auto;
+    color: #ffffffcc;
+}
+.signup-box h1{
+    padding-bottom: 13px;
+}
+.signup-box p{
+    padding-bottom: 20px;
+}
+.signup-box h2{
+    text-transform: capitalize;
+    padding-bottom: 10px;
+}
+
+
+.signup-box form {
+    margin-bottom: 5px;
+}
+.signup-box form input{
+    width: 100%;
+    padding: 5px 9px;
+    margin-bottom: 5px;
+}
+.signup-box input{
+    display: block;
+    padding: 5px 9px;
+    margin-bottom: 20px;
+    background: #ffffff;
+}
+
+.signup-box span{}
+.signup-box span a {
+    text-decoration: none;
+    padding: 5px;
+    color: #ffffff;
+}
+.signup-box audio{
+    margin-top: 20px;
+}
